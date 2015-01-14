@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+       <LinearLayout
+            android:id="@+id/ll_clean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ecard_item_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+           android:paddingLeft="10dp"
+            android:paddingTop="16sp"
+            android:paddingBottom="16sp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/login_username" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="注销登录"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000" />
+
+     <!--   <LinearLayout
+            android:id="@+id/rl_zaocao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ecard_item_selector"
+            android:clickable="true"
+            android:onClick="zaocao"
+            android:orientation="horizontal"
+           android:paddingLeft="10dp"
+            android:paddingTop="16sp"
+            android:paddingBottom="16sp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="invisible"
+                android:src="@drawable/ic_shuacard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="早操考勤"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000" />
+
+
+        
+
+        <LinearLayout
+            android:id="@+id/rl_zaocao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ecard_item_selector"
+            android:clickable="true"
+            android:onClick="zaocao"
+            android:orientation="horizontal"
+           android:paddingLeft="10dp"
+            android:paddingTop="16sp"
+            android:paddingBottom="16sp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="invisible"
+                android:src="@drawable/ic_shuacard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="早操考勤"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000" />
+
+        <LinearLayout
+            android:id="@+id/rl_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ecard_item_selector"
+            android:clickable="true"
+            android:onClick="notice"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="16sp"
+            android:paddingBottom="16sp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="invisible"
+                android:src="@drawable/ic_note" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="用户须知"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000" />
+
+        <LinearLayout
+            android:id="@+id/rl_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ecard_item_selector"
+            android:clickable="true"
+            android:onClick="notice"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="16sp"
+            android:paddingBottom="16sp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_note" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="用户须知"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000" />
+
+        <LinearLayout
+            android:id="@+id/rl_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ecard_item_selector"
+            android:clickable="true"
+            android:onClick="notice"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="16sp"
+            android:paddingBottom="16sp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_note" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="用户须知"
+                android:textSize="16sp" />
+        </LinearLayout> -->
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+      >
+     <TextView 
+         android:id="@+id/tv_title"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@color/main_color"
+        android:text="请小伙伴们登录学号密码测试"
+        />
+      <TextView
+          android:id="@+id/tv_time" 
+        android:layout_marginRight="20dp"
+          android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        
+        android:text="2014-12-12"
+        />
+
+</RelativeLayout>

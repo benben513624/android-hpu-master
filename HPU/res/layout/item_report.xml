@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_text_normal"
+   >
+    
+<TextView 
+    android:id="@+id/tv_title"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:textSize="18sp"
+    android:text="道路运输安全现状、问题与对策 "
+    />
+<TextView 
+    android:layout_below="@id/tv_title"
+    android:id="@+id/tv_author"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+      android:paddingLeft="5dp"
+      android:maxWidth="200dp"
+    android:text="关凌，博士，教授，博导，加拿大工程院院士 "
+    />
+
+<TextView 
+    android:layout_alignParentRight="true"
+    android:layout_below="@id/tv_author"
+    android:id="@+id/tv_address"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+     android:textSize="12sp"
+     android:layout_marginRight="10dp"
+    android:text="圆形报告厅"
+    />
+<TextView 
+    android:layout_alignParentRight="true"
+    android:layout_below="@id/tv_address"
+    android:id="@+id/tv_date"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_width="wrap_content"
+    android:textSize="12sp"
+    android:text="12.10"
+    />
+</RelativeLayout>

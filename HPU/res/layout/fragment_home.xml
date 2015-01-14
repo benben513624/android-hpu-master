@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_home"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/hpubg" />
+    <TextView 
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="河南理工大学欢迎你"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <com.hpu.commun.view.MyGridView 
+        android:padding="4dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:layout_height="wrap_content"
+       />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:gravity="center"
+        >
+         <View android:layout_width="30dp"
+            android:layout_height="1dp"
+            android:background="@color/main_color"
+            />
+        <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_launcher"
+            />
+        
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_color"
+            />
+        
+    </LinearLayout>
+
+    <com.hpu.commun.view.MyListView 
+        android:id="@+id/lv_home"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+         />
+</LinearLayout>
+</ScrollView>

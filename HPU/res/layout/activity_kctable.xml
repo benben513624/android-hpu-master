@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/table_itemleft"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/Table_tv"
+            android:text="周一" />
+
+        <TextView
+            style="@style/Table_tv"
+            android:text="周二" />
+
+        <TextView
+            style="@style/Table_tv"
+            android:text="周三" />
+
+        <TextView
+            style="@style/Table_tv"
+            android:text="周四" />
+
+        <TextView
+            style="@style/Table_tv"
+            android:text="周五" />
+
+        <TextView
+            style="@style/Table_tv"
+            android:text="周六" />
+
+        <TextView
+            style="@style/Table_tv"
+            android:text="周日" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll"
+        android:scrollbars="none" >
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_left"
+                android:layout_width="@dimen/table_itemleft"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/Table_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/table_item_heigth"
+                    android:gravity="center"
+                    android:text="1\n\n2" />
+
+                <TextView
+                    style="@style/Table_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/table_item_heigth"
+                    android:gravity="center"
+                    android:text="3\n\n4" />
+
+                <TextView
+                    style="@style/Table_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/table_item_heigth"
+                    android:gravity="center"
+                    android:text="5\n\n6" />
+
+                <TextView
+                    style="@style/Table_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/table_item_heigth"
+                    android:gravity="center"
+                    android:text="7\n\n8" />
+
+                <TextView
+                    style="@style/Table_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/table_item_heigth"
+                    android:gravity="center"
+                    android:text="9\n\n10" />
+            </LinearLayout>
+
+            <com.hpu.commun.view.NGridView
+                android:id="@+id/gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="2dp"
+                android:numColumns="7"
+                android:verticalSpacing="2dp" />
+             
+           
+        </LinearLayout>
+     
+        <com.hpu.commun.view.MyListView 
+                android:id="@+id/lv_otherkc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"                
+                ></com.hpu.commun.view.MyListView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

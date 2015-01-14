@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical" >
+
+    <!-- 上边框 -->
+
+    <!-- 模仿超级课程表样式 -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="9.0dip"
+        android:layout_marginRight="9.0dip"
+        android:layout_marginTop="10.0dip"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_app_recommend_detail_bg"
+                android:orientation="vertical"
+                android:paddingRight="5.0dip" >
+
+                <LinearLayout
+                    style="@style/detail_course_item_layout"
+                    android:layout_marginTop="18.0dip" >
+
+                    <!-- 课程号 课程名 课序号 学分 课程属性 考试类型 教师 大纲日历 修读方式 选课状态 周次 星期 节次 节数 校区 教学楼 教室 -->
+
+                    <TextView
+                        style="@style/detail_course_left_text"
+                        android:drawableLeft="@drawable/ic_course_course_name"
+                        android:text="课程名" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/detail_course_right_text"
+                        android:text="name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/detail_course_item_layout"
+                    android:layout_marginTop="28.0dip" >
+
+                    <TextView
+                        style="@style/detail_course_left_text"
+                        android:drawableLeft="@drawable/ic_course_classmate"
+                        
+                        android:text="教师 " />
+
+                    <TextView
+                        android:id="@+id/tv_teacher"
+                        style="@style/detail_course_right_text"
+                        android:text="teacher" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/detail_course_item_layout"
+                    android:layout_marginTop="28.0dip" >
+
+                    <TextView
+                        style="@style/detail_course_left_text"
+                        android:drawableLeft="@drawable/ic_course_week_icon"
+                        android:text="考试类型" />
+
+                    <TextView
+                        android:id="@+id/tv_kslx"
+                        style="@style/detail_course_right_text"
+                        android:text="kslx" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/detail_course_item_layout"
+                    android:layout_marginTop="28.0dip" >
+
+                    <TextView
+                        style="@style/detail_course_left_text"
+                        
+                        android:drawableLeft="@drawable/ic_course_time"
+                        android:text="时间 " />
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        style="@style/detail_course_right_text"
+                        android:text="time" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/detail_course_item_layout"
+                    android:layout_marginTop="28.0dip" >
+
+                    <TextView
+                        style="@style/detail_course_left_text"
+                        
+                        android:drawableLeft="@drawable/ic_course_classroom_icon"
+                        android:text="位置" />
+
+                    <TextView
+                        android:id="@+id/tv_posetion"
+                        style="@style/detail_course_right_text"
+                        android:text="position" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/detail_course_item_layout"
+                    android:layout_marginTop="28.0dip" >
+
+                    <TextView
+                        style="@style/detail_course_left_text"
+                        android:drawableLeft="@drawable/ic_course_section_icon"
+                        android:text="学分" />
+
+                    <TextView
+                        android:id="@+id/tv_xf"
+                        style="@style/detail_course_right_text"
+                        android:text="xf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:src="@drawable/ic_course_dashed" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+	
+</LinearLayout>

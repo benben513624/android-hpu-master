@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_text_pressed"
+    android:orientation="vertical" >
+    
+<TextView
+    android:id="@+id/tv_barcode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="条码:1453097"
+    android:textSize="12sp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    />
+<TextView
+    android:id="@+id/tv_remainder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="剩余xx天"
+    android:gravity="right"
+    android:layout_marginRight="10dp"
+    android:textSize="14sp"
+    />
+<TextView
+    android:id="@+id/tv_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cocos2d-x手机游戏开发与项目实战详解 = Cocos2d-x mobile game developing and project practice"
+    android:textSize="20sp"
+    android:padding="15dp"
+    />
+<TextView
+    android:id="@+id/tv_startdate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="借阅时间:2014-11-26 18:20:11"
+    android:layout_marginLeft="10dp"
+     android:textSize="12sp"
+    />
+<TextView
+    android:id="@+id/tv_enddate"
+    android:layout_marginTop="3dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="到期时间:2014-11-26 18:20:11"
+    android:layout_marginLeft="10dp"
+   android:textSize="12sp"
+    />
+<TextView
+    android:id="@+id/tv_other"
+  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="备注:无"
+    android:gravity="right"
+    android:layout_marginRight="10dp"
+    android:textSize="14sp"
+    android:layout_marginBottom="5dp"
+    />
+
+</LinearLayout>

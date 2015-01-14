@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="100.0dip"
+        android:background="@drawable/login_et_bg"
+        android:orientation="vertical"
+        android:padding="5dp" >
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:background="#00ffffff"
+            android:drawableLeft="@drawable/login_username"
+            android:drawablePadding="10dp"
+            android:hint="学号"
+            android:inputType="numberDecimal"
+            android:paddingLeft="5dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginRight="3.0dip"
+            android:background="#dae0e3" />
+<RelativeLayout 
+     android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+    >
+    <EditText
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:background="#00ffffff"
+            android:drawableLeft="@drawable/login_password"
+            android:drawablePadding="10dp"
+            android:hint="密码(信息门户网)"
+            android:inputType="textPassword"
+            android:paddingLeft="5dp" />
+    
+    
+        <Button 
+            android:id="@+id/btn_help"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        
+    
+</RelativeLayout>
+
+    </LinearLayout>
+    
+    <TextView 
+        android:visibility="gone"
+    android:text="本用户系统对接河南理工大学信息门户网http://my.hpu.edu.cn/\n1、帐号：学号。\n2、密码：初始密码与个人身份证号相关，身份证号为18位时其密码为12~17位数字。修改过密码的请按修改后的密码登录"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:textColor="@color/main_color"
+    android:autoLink="web"
+    android:textSize="12sp
+    "
+    />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="30.0dip"
+        android:background="@drawable/login_btn_selector"
+        android:onClick="loginxx"
+        android:text="登录"
+        android:textColor="#c3d6df" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/tv_yk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:text="(T_T)放弃登录"
+            android:textSize="12dp"
+            android:background="@drawable/tv_nologin_selector"
+            android:textColor="#a666" />
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

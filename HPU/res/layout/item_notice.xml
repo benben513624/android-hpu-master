@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    
+<TextView 
+    android:id="@+id/tv_title"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:layout_width="match_parent"
+     android:text="关于正确使用多媒体教室无线话筒的温馨提示"
+    />
+<TextView 
+    android:layout_alignParentRight="true"
+    android:layout_below="@id/tv_title"
+    android:id="@+id/tv_date"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_width="wrap_content"
+    android:textSize="12sp"
+    android:text="12.10"
+    />
+</RelativeLayout>

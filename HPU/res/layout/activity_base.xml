@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/main_color"
+    
+    >
+    
+    <LinearLayout 
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="back"
+        android:background="@drawable/ll_back_selector"
+        android:orientation="horizontal"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        >
+           <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_back_selector"
+        />
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="标题"
+        android:textColor="#ffffff"
+        />
+    </LinearLayout>
+    
+    <LinearLayout
+            android:id="@+id/ll_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:paddingLeft="15dp"
+             android:paddingRight="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_selectzc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="第四周"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/spinner_title_selector" />
+        </LinearLayout>
+
+     <TextView 
+         android:id="@+id/tv_refresh"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:text="刷新"
+        android:textSize="16sp"
+        android:visibility="gone"
+          android:textColor="#ffffff"
+        />
+</RelativeLayout>
+<LinearLayout 
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    ></LinearLayout>
+</LinearLayout>

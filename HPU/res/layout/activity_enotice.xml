@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:text="1.我们的数据来自那里?"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="我们的数据来自学校一卡通自助查询平台,网站入口:http://192.168.17.181/Selfplat/Login.aspx,你可以登录网页版查询"
+        />
+     <TextView 
+         android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:text="2.用我们的软件安全吗?"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="首先，我们不接触用户隐私，更不会上传用户的身份信息，其次我们只提供查询功能，不提供修改功能，所以你大可放心使用"
+        />
+
+</LinearLayout>

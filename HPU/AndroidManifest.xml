@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hpu.commun"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_LOGS"/>
+
+    <application
+        android:name="com.hpu.commun.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hpu.commun.MainActivity"
+            android:launchMode="singleTask"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.hpu.commun.ui.FreeClassRoomActivity"
+            
+            ></activity>
+        <activity 
+            android:name="com.hpu.commun.ui.NoticeActivity"
+            
+            ></activity>
+        <activity android:name=".ui.ReportActivity"></activity>
+        <activity 
+        android:name=".ui.BorrowActivity"></activity>
+        <activity android:name=".ui.LoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"></activity>
+        
+        <activity android:name=".ui.ChengjiActivity"></activity>
+        <activity android:name=".ui.KcTableActivity"></activity>
+        <activity android:name=".ui.CourseInfoActivity"></activity>
+        <activity android:name=".ui.ThanksActivity"></activity>
+        <activity android:name=".ui.ecard.ECardActivity"></activity>
+        <activity android:name=".ui.ecard.ZCActivity"></activity>
+        <activity android:name=".ui.ecard.XFActivity"></activity>
+        <activity android:name=".ui.ecard.CZActivity"></activity>
+        <activity android:name=".ui.ecard.EUserInfoActivity"></activity>
+        <activity android:name=".ui.ecard.ENoticeActivity"></activity>
+    </application>
+
+</manifest>
