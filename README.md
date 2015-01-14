@@ -6,7 +6,6 @@
 注意：本项目最低支持Android2.2
        依赖另一日历选择项目：https://github.com/square/android-times-square
        
-截图：
 ![image](https://github.com/ileelay/android-hpu-master/blob/master/Screenshot_2014-12-29-09-25-19.png)
 ![image](https://github.com/ileelay/android-hpu-master/blob/master/Screenshot_2014-12-29-09-25-50.png)
 ![image](https://github.com/ileelay/android-hpu-master/blob/master/Screenshot_2014-12-29-09-26-18.png)
